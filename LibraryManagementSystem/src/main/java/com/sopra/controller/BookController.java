@@ -29,6 +29,8 @@ public class BookController {
 	public String home(Model model) {
 		model.addAttribute("appName", "Sopra Library");
 		return "home";
+		//hi this is mapping
+		
 	}
 
 	@RequestMapping("/display")
